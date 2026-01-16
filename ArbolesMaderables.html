@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Página de Plantas</title>
+    <style>
+        body {
+            background-image: url('Imagenes/3.webp');
+            font-family: Arial, sans-serif;
+            background-color: #4CAF50; /* Fondo verde */
+            margin: 0;
+            padding: 20px;
+            color: black; /* Texto en blanco para mayor contraste */
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .cuadro {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            color: black; /* Texto en negro dentro de los cuadros */
+        }
+        .cuadro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .cuadro {
+            transition: all 0.3s ease;
+        }
+
+       .cuadro:hover {
+           transform: scale(1.05);
+        box-shadow: 4px  rgba(0,0,0,0.2);
+        }
+         .cuadro {
+        text-align: left;
+        }   
+        .negrita {
+        font-weight: bolder;
+        } 
+        h2 {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TIPO DE ARBOLES MADERABLES</h1>
+    <div class="container">
+        <div class="cuadro">
+            <h2>AHUEHUETE</h2>
+            <img src="Imagenes/ahuehuete.webp" alt="AHUEHUETE">
+             <p class="negrita">NOMBRE CIENTIFICO</p> 
+             <P>🌱Taxodium mucronatum. </P>
+           <p class="negrita">CLIMA</p> 
+            <P>🌱Requierede de climas cálido, semicálido y templado, entre los 100 y 1.800 metros sobre el nivel del mar.</P>
+            <p class="negrita">ALTURA</p> 
+            <P>🌱 puede alcanzar una altura de 20 a 40 metros</P>
+            <p class="negrita">CARACTERISTICAS</p> 
+            <P>🌱Hojas: finas, en espiral, de color verde claro, caducas (se tornan cobrizas en otoño)</P>
+            <p>🌱Raíces: superficiales, extendidas y resistentes al agua; pueden permanecer sumergidas sin pudrirse.</p>
+            <p>🌱Corteza: rojiza, escamosa y fibrosa.</p>
+            <p class="negrita">USOS</p> 
+            <P>🌱Cultural-Madera-Medicinal-Ornamental</P>
+
+        </div>
+       
+
+</body>
+</html>

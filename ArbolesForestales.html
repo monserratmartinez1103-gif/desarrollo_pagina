@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Página de Plantas</title>
+    <style>
+        body {
+            background-image: url('Imagenes/3.webp');
+            font-family: Arial, sans-serif;
+            background-color: #4CAF50; /* Fondo verde */
+            margin: 0;
+            padding: 20px;
+            color: black; /* Texto en blanco para mayor contraste */
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .cuadro {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            color: black; /* Texto en negro dentro de los cuadros */
+        }
+        .cuadro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .cuadro {
+            transition: all 0.3s ease;
+        }
+
+       .cuadro:hover {
+           transform: scale(1.05);
+        box-shadow: 4px  rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        h3{
+            color:black;
+
+        }
+        .cuadro {
+        text-align: left;
+        }   
+        .negrita {
+        font-weight: bolder;
+        }   
+    </style>
+</head>
+<body>
+
+    <h1>TIPO DE ARBOLES FORESTALES</h1>
+    <div class="container">
+        <div class="cuadro">
+            <h2>PINO</h2>
+            <img src="Imagenes/pino.webp" alt="PINO">
+            <p class="negrita">NOMBRE CIENTIFICO</p> 
+             <P> Pinus.</P>
+            <p class="negrita">CLIMA</p>   
+            <P>🌱El pino se adapta a diversos climas, pero prefiere zonas templadas. Soporta temperaturas entre -15 °C y 45 °C, dependiendo de la especie</P>
+            <p class="negrita">ALTURA</p> 
+            <P>🌱En general, alcanza entre 12 y 30 metros.</P>
+            <p class="negrita">CARACTERISTICAS</p> 
+            <P>🌱Hojas: en forma de agujas (acículas), agrupadas en fascículos de 2 a 5, duran 2–3 años.</P>
+            <P>🌱Corteza: gruesa, agrietada, de color rojizo, marrón o anaranjado.</P>
+
+        </div>
+        <div class="cuadro">
+            <h2>AYACAHUITE</h2>
+            <img src="Imagenes/ayacahuite.webp" alt="AYACAHUITE">
+            <p class="negrita">NOMBRE CIENTIFICO</p> 
+             <P> Pinus ayacahuite.</P>
+            <p class="negrita">CLIMA</p>  
+             <P>🌱 El Pinus ayacahuite prospera en climas templados y húmedos y temperaturas medias anuales entre 13 y 17 °C</P>
+            <p class="negrita">ALTURA</p> 
+            <P>🌱 Puede alcanzar alturas entre 25 y 40 metros, e incluso hasta 50 metros .</P>
+            <p class="negrita">CARACTERISTICAS</p> 
+            <P>🌱Hojas: Disponibles en fascículos de 5 acículas, de 8 a 18 cm de largo, delgadas, verdes con tonos glaucos en su cara interna</P>
+            <P>🌱Corteza: Lisa y grisácea en árboles jóvenes; en adultos, se vuelve áspera, moreno rojiza y fisurada en placas irregulares.</P>
+
+        </div>
+    </div>
+
+</body>
+</html>
